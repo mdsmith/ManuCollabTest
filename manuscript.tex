@@ -1,0 +1,64 @@
+\title{An Adaptive Branch Site REL Model for Efficient Detection of Episodic
+Diversifying Selection}
+
+\author{Martin D Smith, Joel Wertheim, Sergei L Kosakovsky Pond\\
+        Bioinformatics And Systems Biology\\
+        University of California, San Diego\\\\
+}
+\date{\today}
+
+\documentclass[12pt]{article}
+\usepackage{tabularx}
+\usepackage{url}
+\usepackage{outlines}
+\usepackage{enumitem}
+\usepackage{fullpage}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage[footnotesize]{caption}
+\setcounter{secnumdepth}{5}
+\setlength{\captionmargin}{48pt}
+\captionsetup[figure]{labelfont=bf}
+%\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+\begin{document}
+\begin{titlepage}
+\maketitle
+\thispagestyle{empty}
+
+\begin{abstract}
+Models of sequence evolution have become an important part of understanding a
+wide variety of species and a fundamental part of the battle against HIV and
+other epidemics. Their application to viral evolution is not exclusive to
+vaccine design, as questions about the origin of zoonoses, for instance,
+become increasingly interesting to epidemiology and other fields. Due in
+part to their computational complexity, codon models of sequence evolution
+are still less frequently used for selection detection than the often
+insufficient GTR+$\gamma$ nucleotide model. Codon models that allow for
+heterogeneity in substitution rates across sites, branches, or both, when
+freed from \textit{a priori} assumptions about the appropriate class of each
+brance, have been shown to detect positive selection more effectivly than
+even the next most advanced heterogeneous codon models. Previously published
+Branch Site REL models used a fixed number of rate classes per branch,
+leading to higher-than-necessary computational complexity and occassional
+numerical instability. Here we update this model to introduce a model-testing
+based Branch Site REL model with an adaptive number of rate classes per
+branch, achieving the same or better power and sensitivity, increased
+performance and increased numerical stability.
+\end{abstract}
+\end{titlepage}
+
+\pagebreak
+
+\section{Introduction}
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\bibliographystyle{abbrv}
+\bibliography{Writeup}
+
+\end{document}
